@@ -1,0 +1,6 @@
+POST {{gym-host}}/gyms/{{gymId}}/rooms
+Content-Type: application/json
+
+{
+    "Name": "Lior's room"
+}

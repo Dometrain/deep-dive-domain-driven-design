@@ -1,0 +1,12 @@
+POST {{session-host}}/rooms/{{roomId}}/sessions
+Content-Type: application/json
+
+{
+    "Name": "Lior's Functional Training",
+    "Description": "Hi, I'm Lior and I'm a personal trainer. I'm here to help you get fit and healthy. I'm a certified personal trainer and I've been training people for 5 years. I'm here to help you get fit and healthy. I'm a certified personal trainer and I've been training people for 5 years. I'm here to help you get fit and healthy. I'm a certified personal trainer and I've been training people for 5 years. I'm here to help you get fit and healthy. I'm a certified personal trainer and I've been training people for 5 years. I'm here to help you get fit and healthy. I'm a certified personal trainer and I've been training people for 5 years. I'm here to help you get fit and healthy. I'm a certified personal trainer and I've been training people for 5 years.",
+    "MaxParticipants": 3,
+    "TrainerId": "{{trainerId}}",
+    "StartDateTime": "2025-02-03T11:00:00",
+    "EndDateTime": "2025-02-03T12:00:00",
+    "Categories": ["Functional"]
+}

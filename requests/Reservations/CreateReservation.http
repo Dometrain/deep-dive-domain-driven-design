@@ -1,0 +1,6 @@
+POST {{session-host}}/sessions/{{sessionId}}/reservations
+Content-Type: application/json
+
+{
+    "ParticipantId": "{{participantId}}"
+}

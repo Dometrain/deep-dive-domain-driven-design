@@ -1,0 +1,49 @@
+version: "3.8"
+services:
+  gym-management-api:
+    build:
+      context: .
+      dockerfile: GymManagement/Dockerfile
+    ports:
+      - "5100:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - ./GymManagement/src/GymManagement.Api/GymManagement.db:/app/GymManagement.db
+    depends_on:
+      - rabbitmq
+    # Add other environment variables or configurations specific to GymManagement.Api
+
+  session-reservation-api:
+    build:
+      context: .
+      dockerfile: SessionReservation/Dockerfile
+    ports:
+      - "5101:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - ./SessionReservation/src/SessionReservation.Api/SessionReservation.db:/app/SessionReservation.db
+    depends_on:
+      - rabbitmq
+    # Add other environment variables or configurations specific to SessionReservation.Api
+
+  user-management-api:
+    build:
+      context: .
+      dockerfile: UserManagement/Dockerfile
+    ports:
+      - "5102:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - ./UserManagement/src/UserManagement.Api/UserManagement.db:/app/UserManagement.db
+    depends_on:
+      - rabbitmq
+    # Add other environment variables or configurations specific to UserManagement.Api
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "15672:15672"
+      - "5672:5672"

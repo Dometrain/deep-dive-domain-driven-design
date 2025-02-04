@@ -1,0 +1,11 @@
+### Admin
+POST {{user-host}}/users/{{userId}}/profiles/admin
+Authorization: Bearer {{token}}
+
+### Trainer
+POST {{user-host}}/users/{{userId}}/profiles/trainer
+Authorization: Bearer {{token}}
+
+### Participant
+POST {{user-host}}/users/{{userId}}/profiles/participant
+Authorization: Bearer {{token}}

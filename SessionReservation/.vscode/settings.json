@@ -1,0 +1,14 @@
+{
+    "rest-client.environmentVariables": {
+        "$shared": {
+            "participantId": "4df41f85-f5de-4456-ba77-6cba08ab31b1",
+            "gymId": "e490126f-15d3-4811-9e3e-02a9aa9e02ed",
+            "roomId": "cee9c0b2-0469-4493-b9f1-1491c20eccb8",
+            "trainerId": "26b3b568-505c-41c4-ac82-f5ebb1fe8fac",
+            "sessionId": "e8f3e7f6-4594-447f-b35f-cb8712775174"
+        },
+        "dev": {
+            "host": "http://localhost:5051"
+        }
+    }
+}

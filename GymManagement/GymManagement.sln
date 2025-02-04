@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{29A76997-05F3-4569-AF44-A3D2B5906129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Api", "src\GymManagement.Api\GymManagement.Api.csproj", "{F93226A3-DE42-4FAF-82A5-BB9ADAC6A911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Application", "src\GymManagement.Application\GymManagement.Application.csproj", "{13E995DD-70E1-48DC-8CF7-E6E7316CAF00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Contracts", "src\GymManagement.Contracts\GymManagement.Contracts.csproj", "{653E20EE-76B5-4DB1-97C1-61F3A95AC964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Domain", "src\GymManagement.Domain\GymManagement.Domain.csproj", "{92A4535C-A2B4-4158-8977-CED4E525E3E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Infrastructure", "src\GymManagement.Infrastructure\GymManagement.Infrastructure.csproj", "{695F9093-B3B4-4FED-9A81-16D629447C41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AAD2BE15-0E81-4297-A6E4-76DA021E58F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomeGym.Domain.UnitTests", "tests\DomeGym.Domain.UnitTests\DomeGym.Domain.UnitTests.csproj", "{B81AC188-5B84-4068-B233-CD227D7FA190}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F93226A3-DE42-4FAF-82A5-BB9ADAC6A911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93226A3-DE42-4FAF-82A5-BB9ADAC6A911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93226A3-DE42-4FAF-82A5-BB9ADAC6A911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93226A3-DE42-4FAF-82A5-BB9ADAC6A911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E995DD-70E1-48DC-8CF7-E6E7316CAF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E995DD-70E1-48DC-8CF7-E6E7316CAF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E995DD-70E1-48DC-8CF7-E6E7316CAF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E995DD-70E1-48DC-8CF7-E6E7316CAF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{653E20EE-76B5-4DB1-97C1-61F3A95AC964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653E20EE-76B5-4DB1-97C1-61F3A95AC964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653E20EE-76B5-4DB1-97C1-61F3A95AC964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653E20EE-76B5-4DB1-97C1-61F3A95AC964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A4535C-A2B4-4158-8977-CED4E525E3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A4535C-A2B4-4158-8977-CED4E525E3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A4535C-A2B4-4158-8977-CED4E525E3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A4535C-A2B4-4158-8977-CED4E525E3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695F9093-B3B4-4FED-9A81-16D629447C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695F9093-B3B4-4FED-9A81-16D629447C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695F9093-B3B4-4FED-9A81-16D629447C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695F9093-B3B4-4FED-9A81-16D629447C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81AC188-5B84-4068-B233-CD227D7FA190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81AC188-5B84-4068-B233-CD227D7FA190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81AC188-5B84-4068-B233-CD227D7FA190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81AC188-5B84-4068-B233-CD227D7FA190}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F93226A3-DE42-4FAF-82A5-BB9ADAC6A911} = {29A76997-05F3-4569-AF44-A3D2B5906129}
+		{13E995DD-70E1-48DC-8CF7-E6E7316CAF00} = {29A76997-05F3-4569-AF44-A3D2B5906129}
+		{653E20EE-76B5-4DB1-97C1-61F3A95AC964} = {29A76997-05F3-4569-AF44-A3D2B5906129}
+		{92A4535C-A2B4-4158-8977-CED4E525E3E6} = {29A76997-05F3-4569-AF44-A3D2B5906129}
+		{695F9093-B3B4-4FED-9A81-16D629447C41} = {29A76997-05F3-4569-AF44-A3D2B5906129}
+		{B81AC188-5B84-4068-B233-CD227D7FA190} = {AAD2BE15-0E81-4297-A6E4-76DA021E58F2}
+	EndGlobalSection
+EndGlobal

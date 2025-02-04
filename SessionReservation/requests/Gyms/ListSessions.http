@@ -1,0 +1,14 @@
+@start=2025-01-01T11:32:51Z
+@end=2025-04-20T20:42:51Z
+@category1=Functional
+
+GET {{session-host}}/gyms/{{gymId}}/sessions?startDateTime={{start}}&endDateTime={{end}}&categories={{category1}}
+
+### no date time
+GET {{session-host}}/gyms/{{gymId}}/sessions?categories={{category1}}
+
+### no categories
+GET {{session-host}}/gyms/{{gymId}}/sessions?startDateTime={{start}}&endDateTime={{end}}
+
+### no categories or date time
+GET {{session-host}}/gyms/{{gymId}}/sessions

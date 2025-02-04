@@ -1,0 +1,9 @@
+POST {{user-host}}/authentication/register
+Content-Type: application/json
+
+{
+    "FirstName": "Amichai",
+    "LastName": "Amantinband",
+    "Email": "amichai@mantinband.com",
+    "Password": "Amiko1234!!"
+}

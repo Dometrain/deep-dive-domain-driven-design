@@ -1,0 +1,4 @@
+@start=2023-07-01T11:32:51Z
+@end=2023-07-31T10:42:51Z
+
+GET {{session-host}}/participants/{{participantId}}/sessions?startDateTime={{start}}&endDateTime={{end}}
