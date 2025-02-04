@@ -1,6 +1,6 @@
 # Deep Dive: Domain-Driven Design
 
-Welcome to the ["Deep Dive: Domain-Driven Design"](https://dometrain.com/course/deep-dive-domain-driven-design-ddd/) course on Dometrain! 
+Welcome to the ["Deep Dive: Domain-Driven Design"](https://dometrain.com/course/deep-dive-domain-driven-design-ddd?ref=dometrain-github&promo=deep-dive-domain-driven-design) course on Dometrain! 
 
 This repository contains the source code for the course, which you can use to follow along.
 
